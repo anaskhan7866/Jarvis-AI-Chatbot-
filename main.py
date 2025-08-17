@@ -8,7 +8,7 @@ import google.generativeai as genai
 recognizer = sr.Recognizer() #helps to recognize the voice
 engine = pyttsx3.init()      #initializing the text to speach
 
-genai.configure(api_key="AIzaSyC2XeuXLzl0qrLipNKr_pZNhEKioMiW2oc")
+genai.configure(api_key="Your_API_Key")
 
 model = genai.GenerativeModel("gemini-1.5-flash")
 
@@ -63,3 +63,4 @@ if __name__ == "__main__":
 
         except Exception as e:
             print("error; {0}".format(e))
+
