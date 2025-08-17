@@ -24,3 +24,25 @@ A simple voice-controlled AI assistant built with **Python**, powered by:
    ```bash
    git clone https://github.com/your-username/Jarvis-AI.git
    cd Jarvis-AI
+
+2. Install dependencies:
+      pip install -r requirements.txt
+
+🔑 Setup Google Gemini API
+
+Get an API key from Google AI Studio.
+
+Open main.py and replace:
+
+genai.configure(api_key="YOUR_API_KEY")
+
+
+📌 Example Commands
+
+"Jarvis, open YouTube"
+
+"Jarvis, play Believer"
+
+"Jarvis, search Python tutorials"
+
+"Jarvis, tell me a joke"
