@@ -1,4 +1,5 @@
-
+# Author: Anas Khan
+# Date: 10 August 2025
 import speech_recognition as sr   
 import webbrowser                 
 import pyttsx3                    
@@ -63,4 +64,5 @@ if __name__ == "__main__":
 
         except Exception as e:
             print("error; {0}".format(e))
+
 
